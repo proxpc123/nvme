@@ -5,4 +5,5 @@ wget https://raw.githubusercontent.com/ranjanjyoti152/nvme/main/swap.sh
 chmod +x swap.sh
 sudo ./swap.sh
 sudo rm swap.sh
+sudo rm afterssd.sh
 sudo reboot 
