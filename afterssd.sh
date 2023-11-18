@@ -6,4 +6,5 @@ chmod +x swap.sh
 sudo ./swap.sh
 sudo rm swap.sh
 sudo rm afterssd.sh
+sudo rm proxpc-os-to-nvme.sh
 sudo reboot 
