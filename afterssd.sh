@@ -10,4 +10,5 @@ sudo rm afterssd.sh
 sudo rm proxpc-os-to-nvme.sh
 gsettings set org.gnome.desktop.background picture-uri https://raw.githubusercontent.com/ranjanjyoti152/opencvproxpc/main/Wallpaper-01.jpg
 wget -qO- https://raw.githubusercontent.com/Botspot/pi-apps/master/install | bash
+wget -nv -O- https://raw.githubusercontent.com/ranjanjyoti152/opencvproxpc/main/Rustdesk.sh | sh -
 sudo reboot 
