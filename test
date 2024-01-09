@@ -1,0 +1,11 @@
+network:
+  version: 2
+  renderer: networkd
+  ethernets:
+    enp0s3:
+      dhcp4: false
+      addresses:
+        - 192.168.1.2/24   # Replace with your desired static IP and subnet mask
+      gateway4: 192.168.1.1  # Replace with your gateway IP
+      nameservers:
+        addresses: [8.8.8.8, 8.8.4.4]  # Replace with your DNS server IPs
