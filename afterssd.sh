@@ -1,7 +1,7 @@
 #!/bin/bash
 sudo apt update
 sudo apt upgrade -y
-sudo apt-get install nvidia-jetpack
+sudo apt-get install nvidia-jetpack -y
 sudo systemctl mask sleep.target suspend.target hibernate.target hybrid-sleep.target
 sudo apt-get -y install python3-pip
 sudo pip3 install jetson-stats
